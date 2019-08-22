@@ -62,3 +62,6 @@ You can also just publish a URL to `player_state` (just as string, not as json a
 
 For other player controls, simply publish e.g. `RESUME`, `PAUSE`, `STOP`, `SKIP` or `REWIND` to
 `chromecast/friendly_name/command/player_state`. Attention: This is case-sensitive!
+
+## TODO
+* Add log file

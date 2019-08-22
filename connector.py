@@ -7,7 +7,8 @@ from helper.discovery import ChromecastDiscovery
 from time import sleep
 from helper.mqtt import MqttConnection
 
-logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(filename="app.log", level=logging.DEBUG)
 logging.getLogger("pychromecast").setLevel(logging.DEBUG)
 logging.getLogger("pychromecast.socket_client").setLevel(logging.INFO)
 
